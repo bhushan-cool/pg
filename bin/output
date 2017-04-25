@@ -1,0 +1,20 @@
+[student@localhost Exp1]$ g++ exp1.cpp
+[student@localhost Exp1]$ ./a.out
+
+Sorting data.......
+
+
+Enter key(account number) to search record:7713450
+
+Data found is .....
+Account Number: 7713450
+Name: Prajyot_Autade
+Address: Pohegoan
+Account Balance: 3000
+Do you want to search any other record(0/1):1
+
+Enter key(account number) to search record:7654332
+
+No Data found...!!!
+Do you want to search any other record(0/1):0
+

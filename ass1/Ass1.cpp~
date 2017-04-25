@@ -8,12 +8,11 @@ void caesar_encrypt(char src[100], int key, int dist)
     {
         if (src[i] >= 'A' && src[i] <= 'Z')
         {
-            src[i] = (char)(((src[i] + key - 'A' + 26) % 26) + 'A');
-		
+            src[i] = (char)(((src[i] + key)));
         }
         else if (src[i] >= 'a' && src[i] <= 'z')
         {
-            src[i] = (char)(((src[i] + key - 'a' + 26) % 26) + 'a');
+            src[i] = (char)(((src[i] + key)));
         }
     }
 }
